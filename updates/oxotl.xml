@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+    xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Oxotl Updates</title>
+    <link>https://oxotl.com/updates/oxotl.xml</link>
+    <description>Oxotl app updates</description>
+    <language>en</language>
+    <item>
+      <title>Oxotl 0.1.28</title>
+      <pubDate>Sun, 18 Oct 2026 23:42:11 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.5</sparkle:minimumSystemVersion>
+      <enclosure
+          url="https://github.com/Oxotl/Oxotl-dist/releases/download/v0.1.28/Oxotl-0.1.28-38.dmg"
+          sparkle:version="38"
+          sparkle:shortVersionString="0.1.28"
+          length="18176644"
+          type="application/octet-stream"
+          sparkle:edSignature="LJTBhSVDsVKcPNBRTDjzYiwCTDHPpcxINUN498Mn+5JGhwMfo+6EJ/SmovyBz7OQqGIebaElESPZ184jvq8YCQ==" />
+    </item>
+  </channel>
+</rss>
