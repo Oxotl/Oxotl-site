@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+    xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Oxotl Updates</title>
+    <link>https://oxotl.com/updates/oxotl.xml</link>
+    <description>Oxotl app updates</description>
+    <language>en</language>
+    <item>
+      <title>Oxotl 0.1.5</title>
+      <pubDate>Sun, 17 May 2026 11:13:25 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.5</sparkle:minimumSystemVersion>
+      <enclosure
+          url="https://github.com/Oxotl/Oxotl-dist/releases/download/v0.1.5/Oxotl-0.1.5-15.dmg"
+          sparkle:version="15"
+          sparkle:shortVersionString="0.1.5"
+          length="10924598"
+          type="application/octet-stream"
+          sparkle:edSignature="ZEazHfxnpo2o0H1qQ+mcOS5eax+Fivl9mT9a4C5pODk1luhKDfHmfKwyt5C9ntSKCsAG5CbOkkK1NTtByVqcAQ==" />
+    </item>
+  </channel>
+</rss>
