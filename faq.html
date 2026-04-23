@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Oxotl | FAQ</title>
+    <meta
+      name="description"
+      content="Answers about Oxotl privacy, Codex usage, licensing, downloads, and why to use it with Codex."
+    />
+    <link rel="icon" href="/favicon-96.png" type="image/png" sizes="96x96" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="legal">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Oxotl home">
+        <img class="brand-mark" src="assets/oxotl_transparent.png" alt="" />
+        <span data-app-name>Oxotl</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="./">Home</a>
+        <a href="faq.html" aria-current="page">FAQ</a>
+        <a class="download-button download-button-nav" href="/download" data-download-page-link>
+          <span class="download-button-icon" aria-hidden="true">
+            <svg viewBox="0 0 814 1000" focusable="false" aria-hidden="true">
+              <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76.5 0-103.7 40.8-165.9 40.8s-105.6-57-155.5-127C46.7 790.7 0 663 0 541.8c0-194.4 126.4-297.5 250.8-297.5 66.1 0 121.2 43.4 162.7 43.4 39.5 0 101.1-46 176.3-46 28.5 0 130.9 2.6 198.3 99.2zm-234-181.5c31.1-36.9 53.1-88.1 53.1-139.3 0-7.1-.6-14.3-1.9-20.1-50.6 1.9-110.8 33.7-147.1 75.8-28.5 32.4-55.1 83.6-55.1 135.5 0 7.8 1.3 15.6 1.9 18.1 3.2.6 8.4 1.3 13.6 1.3 45.4 0 102.5-30.4 135.5-71.3z" fill="currentColor"></path>
+            </svg>
+          </span>
+          <span class="download-button-label" data-download-label>Download for Mac</span>
+        </a>
+        <a class="is-collapsed" data-buy-link href="https://oxotl.lemonsqueezy.com/checkout/buy/f93dcbed-470e-454d-8453-1ba3fbc883f4" target="_blank" rel="noopener noreferrer">Buy</a>
+      </nav>
+    </header>
+
+    <main class="legal-wrap">
+      <article class="legal-card">
+        <h1>Oxotl FAQ</h1>
+
+        <h2>What is Oxotl?</h2>
+        <p>
+          Oxotl is a native macOS UI for existing Codex installs, such as the Codex app or
+          Codex from Homebrew. It runs Codex under the hood and presents your Codex sessions
+          in a focused native app.
+        </p>
+
+        <h2>Why use it instead of only the Codex app or CLI?</h2>
+        <p>
+          Use Oxotl when Codex work starts turning into stale terminal sessions, competing
+          agent threads, or a stack of worktrees to reconcile. It keeps active, finished,
+          idle, and waiting sessions visible in one compact place, so it is easier to
+          remember what is running and jump back in.
+        </p>
+        <p>
+          It is built to make parallel Codex work feel cleaner: create worktree sessions,
+          review diffs, test changes, rebase, and merge without turning branch cleanup into
+          a separate chore.
+        </p>
+
+        <h2>How private is it?</h2>
+        <p>
+          Oxotl does not collect your Codex data. It does not send us your prompts, code,
+          repositories, diffs, commits, terminal output, Codex sessions, or local app
+          metadata.
+        </p>
+        <p>
+          App data stays on your Mac. The main Oxotl app is sandboxed without internet
+          access. A separate helper checks licenses with Lemon Squeezy, and
+          Sparkle's update service can check for and download app updates.
+        </p>
+        <p>
+          Codex still runs underneath Oxotl and can do whatever your Codex setup is allowed
+          to do, including networked developer workflows you approve.
+        </p>
+
+        <h2>How does it use Codex?</h2>
+        <p>
+          Oxotl looks for supported Codex installs in standard locations, lets you choose a
+          Codex executable if needed, and reads local Codex session state so it can show
+          your active work.
+        </p>
+        <p>
+          It can follow sessions created by the Codex app or CLI, or create and manage
+          Codex sessions from Oxotl. Codex still does the model work; Oxotl provides the
+          native UI around session state, quick replies, worktrees, diffs, and merging.
+        </p>
+
+        <h2>Can I try it before buying?</h2>
+        <p>
+          Yes. You can run up to 3 Codex sessions at once for free. A paid license unlocks
+          unlimited sessions.
+        </p>
+
+        <h2>Does it replace Codex?</h2>
+        <p>
+          It can replace a lot of day-to-day interaction with the Codex app or CLI, but it
+          does not replace the underlying codex tool, your Codex login, your repositories,
+          or your model provider. Oxotl runs Codex under the hood.
+        </p>
+
+        <h2>Where do I get help?</h2>
+        <p>
+          Email <a data-support-link href="mailto:support@oxotl.com">support@oxotl.com</a>
+          for support or purchase questions.
+        </p>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <span>© <span data-year>2026</span> <span data-company-name>Hunter Delattre</span></span>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a data-support-link href="mailto:support@oxotl.com">Support</a>
+    </footer>
+
+    <script src="site.js"></script>
+  </body>
+</html>
